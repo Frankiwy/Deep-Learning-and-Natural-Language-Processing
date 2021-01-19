@@ -1,5 +1,5 @@
 # Deep Learning and Natural Language Processing 
-##### Data Mining Technology for Business and Society
+### Data Mining Technology for Business and Society
 [Homework Deadline: 14 June 2020 23:59 (Rome Time Zone)]  
 ![Sapienza Logo](https://github.com/Frankiwy/Deep-Learning-and-Natural-Language-Processing/blob/main/images/logo-sapienza-new.jpg)
 The main idea is to fact check claims using the knowledge that modern language models, such as BERT, acquire during pre-training (for BERT, by reading Wikipedia and BookCorpus) [0]. We will use FEVER [1] as the main dataset and LAMA [2] as the main repository.
