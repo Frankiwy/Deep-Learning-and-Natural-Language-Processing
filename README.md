@@ -4,9 +4,9 @@
 ![Sapienza Logo](https://github.com/Frankiwy/Deep-Learning-and-Natural-Language-Processing/blob/main/images/logo-sapienza-new.jpg)
 The main idea is to fact check claims using the knowledge that modern language models, such as BERT, acquire during pre-training (for BERT, by reading Wikipedia and BookCorpus) [0]. We will use FEVER [1] as the main dataset and LAMA [2] as the main repository.
 
-[0] Language Models as Knowledge Bases? https://arxiv.org/abs/1909.01066
-[1] https://fever.ai/resources.html
-[2] https://github.com/facebookresearch/LAMA 
+- [0] Language Models as Knowledge Bases? https://arxiv.org/abs/1909.01066
+- [1] https://fever.ai/resources.html
+- [2] https://github.com/facebookresearch/LAMA 
 
 For each task the submission should include:
 1.	A brief document describing what you did and the choices you made (max 2 pages)
@@ -59,10 +59,10 @@ Enrich the datapoint as follow
 The start_character is the index of the first character for the entity mention, end_character the last. Example:
 "Lorelai Gilmore's father is named Robert."[34:40] == “Robert”
 
-[3] https://s3-eu-west-1.amazonaws.com/fever.public/train.jsonl
-[4] https://s3-eu-west-1.amazonaws.com/fever.public/paper_dev.jsonl
-[5] https://github.com/flairNLP/flair
-[6] https://storage.googleapis.com/bert_models/2018_10_18/cased_L-12_H-768_A-12.zip
+- [3] https://s3-eu-west-1.amazonaws.com/fever.public/train.jsonl
+- [4] https://s3-eu-west-1.amazonaws.com/fever.public/paper_dev.jsonl
+- [5] https://github.com/flairNLP/flair
+- [6] https://storage.googleapis.com/bert_models/2018_10_18/cased_L-12_H-768_A-12.zip
 ## Task 1. Use LAMA to get predictions for masked entities
 The task involves masking all specified single-token entities in the official test set and get BERT predictions for those, as well for the dev set (for which you need to report only the best accuracy). 
 To get prediction for a masked token you should use the LAMA repository (https://github.com/facebookresearch/LAMA). In particular, you should clone the repository locally and write a script to solve each task (that you should submit to complete the homework). Alternatively there are some instructions in the README on how to use lama in your code that you can follow.
